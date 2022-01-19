@@ -1,0 +1,258 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(235, 195, 195);
+    /*height: 400px;*/
+}
+#head{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 9%;
+}
+ul {
+    list-style: none;
+    display: flex;  
+}
+ul li ,i{
+    margin-right: 8%;
+    
+}
+#title{
+    border: 2px solid black;
+    color: black;
+    font-size: 25px;
+    margin-top: 9px;
+}
+.red{
+    color:red;
+    font-size: 25px;
+}
+#about{
+    display: flex;
+    justify-content: space-between;
+   /* flex-wrap: wrap;*/
+    
+   /* margin: 8px;
+   margin-bottom: 8px;*/
+  
+    padding: 70px 70px 0px 0px;
+}
+#pic{
+    margin-left: 30px;
+}
+
+.abouve{
+    color:rgb(17, 16, 16);
+    font-size: 30px;
+   
+}
+#amine{
+    padding-left: 10%;
+    padding-top: 6%;
+}
+
+button{
+    background-color: orangered;
+    color: antiquewhite;
+    border-radius: 20px;
+    margin-left: 15%;
+    margin-top: 20px;
+   /* margin-bottom: 80px;*/
+}
+#shoes,#protune,#machin{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    perspective: 500px;
+    transform-style: preserve-3d;
+}
+.img{
+    margin-right: 15px;
+    width: 22%;
+    border:2px solid rgb(105, 102, 102);
+    border-radius: 20px;
+    
+}
+.img:hover{
+    transform:rotateX(20deg);
+
+}
+.bot ,.bbot{
+    background-color: orangered;
+    color: antiquewhite;
+    border-radius: 20px;
+    margin-left: 45%;
+    margin-bottom: 15px;
+    
+}
+/*#bt{
+    justify-content: center;
+}*/
+#apple{
+    margin-top: -110px;
+    margin-left: -70px;
+    margin-right: 35px;
+}
+.apple{
+    margin-top: -30px;
+}
+#watch{
+    background-color: rgb(235, 195, 195);
+   /* margin-top: 8px;*/
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    padding: 90px 0 0 90px;
+    
+}
+section{
+    
+    background-image:linear-gradient(to bottom right,aliceblue,wheat);
+    margin-top: -20px;
+}
+#hiba{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#parent,#parent2{
+    width: 210px;
+    height: 277px;
+    background-image:linear-gradient(to bottom right,wheat,rgb(235, 195, 195));
+    
+    padding: 30px;
+    margin: 40px;
+}
+.child{
+    width: 50%;
+    height: 141px;
+    background-image:linear-gradient(to bottom right,rgb(235, 195, 195),wheat);
+    margin: auto;
+    padding: 30px;
+    margin-bottom: 20px;  
+}
+h4{
+    text-align: center;
+    font-size: medium;
+    border-bottom: 3px solid red;
+    width: 53px;
+    margin: auto;
+    padding-top: 90px;
+    
+}
+.star{
+    display: flex;
+    margin-right: 5px;
+}
+.rihana{
+    margin-left:35% ;
+}
+#rihana,#rihan{
+    border-radius: 50%;
+  
+}
+.simi{
+    margin-left:35% ;
+    margin-top: -20px;
+}
+#pub{
+    display: flex;
+    
+    justify-content: center;
+}
+footer{
+    background-image:linear-gradient(to bottom right,black,rgb(110, 108, 103));
+    
+}
+#foot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#wac{
+    font-size: 26px;
+    color:red;
+}
+#wac:hover{
+    color:white;
+}
+
+#line{
+    border-top: 2px solis white;
+    width: 50%;
+}
+#fin{
+    border: 2px solid rgb(247, 243, 243);
+    color: rgb(185, 176, 176);
+    font-size: 3vw;
+    height: 35px;
+}
+#papa li a i{
+    margin-right: 10px;
+    
+}
+ul li a i{
+    color :aliceblue;
+    color:darkgray;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+ul li a i:hover{
+    color:red
+}
+#parenttiu{
+    position:absolute;
+    left: 1px;
+    
+    background-image:linear-gradient(to bottom right,rgb(189, 174, 174),rgb(250, 248, 248));
+    top: 40px;
+    padding: 0px;
+    border: 3px solid black;
+    width: 22%;
+    height: 400px;
+   
+
+}
+  @media only screen and (max-width:800px) {
+      #parenttiu{
+    background-image:linear-gradient(rgb(212, 226, 9));
+    
+        width: 60%;
+      
+      }
+      
+  }
+
+.b{
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid black;
+    color: black;
+    
+}
+ a {
+    text-decoration: none;
+}
+#clic{
+    float: right;
+    background-color: beige;
+    
+    width: 25px;
+    text-align: center;
+    font-size: 18px;
+}
+#clic:hover{
+    background-color: red;
+}
+.b:hover{
+    color: white;
+    background-color: black;
+}
+
+
